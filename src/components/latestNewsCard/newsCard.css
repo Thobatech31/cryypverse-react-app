@@ -1,0 +1,90 @@
+.newsCardsHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsCards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+}
+
+.pad-20{
+    padding: 20px;
+}
+
+.pr-20{
+    padding-right: 20px;
+}
+
+.float-right{
+    float: right;
+}
+.newsCardsItem {
+    /*flex: 1;*/
+    width: 24%;
+    margin: 0px 20px 20px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+.newsCardsTitle{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.flex-center{
+    align-items: center;
+    display: flex;
+}
+
+.img-sec{
+    width: 90px !important;
+    height: 90px !important;
+    object-fit: cover;
+}
+
+.newsCardsTitle img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    object-fit: cover;
+}
+
+.newsCardsDescContainer{
+    margin: 10px 0px;
+    /*display: flex;*/
+    align-items: center;
+}
+
+.newsCardsDesc{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.newsCardsDescRate{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.newsCardsIcon{
+    font-size: 14px;
+    margin-left: 5px;
+    color: green;
+}
+
+.newsCardsIcon.negative{
+    color: red;
+}
+
+.newsCardsSub{
+    font-size: 15px;
+    color: gray;
+}
